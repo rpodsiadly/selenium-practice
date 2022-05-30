@@ -72,4 +72,4 @@ Under [/tests/base_configuration_test.py](https://github.com/rpodsiadly/selenium
 </details>
 
 ## Tests result preview
-[UnitTest Result preview](https://github.com/rpodsiadly/selenium-practice/blob/de4b75133a5c9b842cb73e9a1c1664673a5b10d1/reports/unittestresult_2022-05-30_21-24-43.html)
+[UnitTest Result preview](https://htmlpreview.github.io/?https://github.com/rpodsiadly/selenium-practice/blob/de4b75133a5c9b842cb73e9a1c1664673a5b10d1/reports/unittestresult_2022-05-30_21-24-43.html)
