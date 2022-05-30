@@ -1,0 +1,26 @@
+name: Selenium Practice @ automationpractice.com
+
+on:
+  [push]
+jobs:
+  build_and_run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Python 3
+        uses: actions/setup-python@v3
+      - name: Install deps
+        run: make deps
+      - name: Run tests
+        run: |
+          make test
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
