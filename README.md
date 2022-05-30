@@ -18,7 +18,7 @@ Command *make deps* will do it for you, however you can install them manually.
 ## Default webdriver settings
 Default setting of webdriver is headless option - for githubactions.
 
-Under [/tests/base_configuration_test.py line 7-16 and 28-37](https://github.com/rpodsiadly/selenium-practice/blob/2eaf906a13a7c301f6d7799c222410cb13c7be8d/tests/base_configuration_test.py#L7-L16)  and [here](hhttps://github.com/rpodsiadly/selenium-practice/blob/2eaf906a13a7c301f6d7799c222410cb13c7be8d/tests/base_configuration_test.py#L28-L37) you can set up *visual environment*
+Under **/tests/base_configuration_test.py** at lines: [#[7 - 16]](https://github.com/rpodsiadly/selenium-practice/blob/2eaf906a13a7c301f6d7799c222410cb13c7be8d/tests/base_configuration_test.py#L7-L16)  and [#[28 - 37]](https://github.com/rpodsiadly/selenium-practice/blob/2eaf906a13a7c301f6d7799c222410cb13c7be8d/tests/base_configuration_test.py#L28-L37) you can set up *visual environment*
 
 ## How to run this project
 - clone repository
