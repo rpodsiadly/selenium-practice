@@ -46,7 +46,8 @@ Under **/tests/base_configuration_test.py** at lines: [#[7 - 16]](https://github
   ```
   
 
-## Test cases
+## Test cases 
+
 > Environment: Ubuntu 20.04.4 LTS | Firefox Browser 99.0 (64bit)
 
 > Preconditions: user not logged in, browser running
@@ -69,6 +70,10 @@ Under **/tests/base_configuration_test.py** at lines: [#[7 - 16]](https://github
   
   - logining negative
   - logining positive
+</details>
+<details><summary>Docs in Polish</summary>
+
+[click](https://drive.google.com/file/d/1_BCPqebHNRKxu0r-sFxfOmt79Oa9JPaa/view?usp=share_link)
 </details>
 
 ## Tests result preview
